@@ -15,7 +15,7 @@
 	  received |= 1 << inputChannel;
 	  if (received == 0b11) {
 	    received = 0;
-	    this->emit(k1 * inputs[0] - k2 * inputs[1]);
+	    this->emit(inputs[0] * inputs[1]);
 	  }
 	}
 	
