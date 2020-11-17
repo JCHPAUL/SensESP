@@ -5,7 +5,7 @@
 	#include "transform.h"
 	
 
-	// y = k1 * x1 - k2 * x2
+	// y = x1 * x2
 	class Jpmultiply : public NumericTransform {
 	 public:
 	  Jpmultiply(float k1, float k2, String config_path = "");
